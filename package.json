@@ -1,0 +1,16 @@
+{
+  "name": "cloudflare-workers-playground",
+  "version": "1.0.0",
+  "private": true,
+  
+  "main": "worker.js",
+  
+  "dependencies": {
+    "@octokit/app": "latest"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
